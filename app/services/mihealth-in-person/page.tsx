@@ -16,7 +16,7 @@ export default function MiHealthInPersonPage() {
         <div className='container-custom'>
           <div className='max-w-4xl mx-auto'>
             <div className='mb-8 flex justify-center'>
-              <Image src='MiHealthInPerson-Service.png' alt='MiHealth In-Person Service - Person using device' width={600} height={600} className='rounded-lg w-full max-w-md h-auto' priority />
+              <Image src='/images/MiHealthInPerson-Service.jpg' alt='MiHealth In-Person Service - Person using device' width={600} height={600} className='rounded-lg w-full max-w-md h-auto' priority />
             </div>
 
             <p className='text-lg mb-6'>Experience the power of the award-winning MiHealth device, incorporating PEMF, TENS, and SCENAR biofeedback technologies. This innovative device helps to:</p>

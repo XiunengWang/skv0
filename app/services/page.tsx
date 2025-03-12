@@ -39,7 +39,7 @@ export default function ServicesPage() {
                 <CardTitle>MiHealth In-Person</CardTitle>
               </CardHeader>
               <CardContent>
-                <Image src='/images/MiHealthInPerson-Service.png?height=200&width=400' alt='MiHealth In-Person' width={400} height={200} className='rounded-lg mb-4 w-full' />
+                <Image src='/images/MiHealthInPerson.jpg?height=200&width=400' alt='MiHealth In-Person' width={400} height={200} className='rounded-lg mb-4 w-full' />
                 <p className='mb-4'>Up-level your health and simplify your life with the award-winning MiHealth device. Experience the power of PEMF, TENS, and SCENAR biofeedback technologies, all integrated into one innovative device designed to enhance your well-being.</p>
               </CardContent>
               <CardFooter>

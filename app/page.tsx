@@ -68,7 +68,7 @@ export default function Home() {
               </CardHeader>
               <CardContent>
                 <div className='mb-4 flex justify-center'>
-                  <Image src='/images/new-miHealth.png' alt='MiHealth Device' width={200} height={300} className='rounded-lg h-48 object-contain' />
+                  <Image src='/images/MiHealthInPerson.jpg' alt='MiHealth Device' width={200} height={300} className='rounded-lg h-48 object-contain' />
                 </div>
                 <p className='mb-4'>Up-level your health and simplify your life with the award-winning MiHealth device. Experience the power of PEMF, TENS, and SCENAR biofeedback technologies, all integrated into one innovative device designed to enhance your well-being.</p>
               </CardContent>
