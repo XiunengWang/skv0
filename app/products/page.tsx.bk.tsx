@@ -44,24 +44,12 @@ export default function ProductsPage() {
                   <Image src='/images/renu28.jpeg' alt='RENU28 Revitalizing Redox Gel' width={200} height={400} className='h-64 object-contain' />
                 </div>
                 <p className='mb-6'>RENU28 is a revolutionary skin gel that harnesses the power of redox signaling molecules to revitalize skin cells, promoting cellular health from the outside in.</p>
-                <div className='grid grid-cols-2 gap-4'>
-                  {' '}
-                  {/* Add this wrapper div */}
-                  <a
-                    href='https://1800639445.myasealive.com/'
-                    target='_blank'
-                    rel='noopener noreferrer'
-                    className='btn btn-secondary w-full text-center' // Add w-full and text-center
-                  >
-                    Visit Website
-                  </a>
-                  <Link
-                    href='/discovery-call?service=purchaseRenu28#discovery-form'
-                    className='btn btn-primary w-full text-center' // Add w-full and text-center
-                  >
-                    Contact for Purchase
-                  </Link>
-                </div>
+                <a href='https://1800639445.myasealive.com/' target='_blank' rel='noopener noreferrer' className='btn btn-secondary'>
+                  Visit Website
+                </a>
+                <Link href='/discovery-call?service=purchaseRenu28#discovery-form' className='btn btn-primary'>
+                  Contact for Purchase
+                </Link>
               </div>
 
               <div className='bg-white p-6 rounded-lg shadow-md'>
@@ -70,23 +58,17 @@ export default function ProductsPage() {
                   <Image src='/images/olylife_P90.jpeg' alt='OLYLIFE TERAHERTZ FOOT MACHINE' width={400} height={400} className='h-64 object-contain' />
                 </div>
                 <p className='mb-6'>The OlyLife Terahertz Foot Machine uses advanced terahertz technology to promote circulation, reduce fatigue, and support overall foot health.</p>
-                <div className='grid grid-cols-2 gap-4'>
-                  {' '}
-                  {/* Add this wrapper div */}
-                  <a
-                    href='https://olylifeglobal.com/'
-                    target='_blank'
-                    rel='noopener noreferrer'
-                    className='btn btn-secondary w-full text-center' // Add w-full and text-center
-                  >
+                <div className='space-y-4'>
+                  <a href='https://olylifeglobal.com/' target='_blank' rel='noopener noreferrer' className='btn btn-secondary'>
                     Visit Website
                   </a>
-                  <Link
-                    href='/discovery-call?service=purchaseOlylife#discovery-form'
-                    className='btn btn-primary w-full text-center' // Add w-full and text-center
-                  >
+                  <Link href='/discovery-call?service=purchaseOlylife#discovery-form' className='btn btn-primary'>
                     Contact for Purchase
                   </Link>
+
+                  {/* <Link href='https://www.e4l.com/p/?id=siokkhoonpoh&message=Interested in purchasing the MiHealth device.' className='text-sm font-medium transition-colors hover:text-primary' target='_blank' rel='noopener noreferrer'>
+                    Contact for Purchase
+                  </Link> */}
                 </div>
               </div>
             </div>

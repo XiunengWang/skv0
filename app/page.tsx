@@ -50,7 +50,7 @@ export default function Home() {
               </CardHeader>
               <CardContent>
                 <div className='mb-4 flex justify-center'>
-                  <Image src={'/images/energyAudit.webp'} alt='Energy Audit Visualization' width={400} height={400} className='rounded-lg h-48 object-cover w-full' />
+                  <Image src='/images/energyAudit.webp' alt='Energy Audit Visualization' width={400} height={400} className='rounded-lg h-48 object-cover w-full' />
                 </div>
                 <p className='mb-4'>Unlock the Secrets of Your Energy with Our Cutting-Edge E4L Bioenergetic Scan. Using your voice, discover hidden traumas impacting your vitality and well-being, identify recurring thought patterns that are limiting your potential, and discover real support for breakthrough and lasting change.</p>
               </CardContent>
@@ -160,7 +160,7 @@ export default function Home() {
               <h3 className='text-2xl font-bold mb-4'>MIHEALTH DEVICE</h3>
               <div className='mb-4 flex justify-center'>
                 {/* <Image src='https://hebbkx1anhila5yf.public.blob.vercel-storage.com/new-miHealth-249x300-OHHaYW5RvWzZNQujVlAYF6O7E7rhQ0.png' alt='MiHealth Device' width={200} height={300} className='h-48 object-contain' /> */}
-                <Image src='/images/new-miHealth.png' alt='MiHealth Device' width={200} height={300} className='h-48 object-contain' />
+                <Image src='/images/miHealth.png' alt='MiHealth Device' width={200} height={300} className='h-48 object-contain' />
               </div>
               <p className='mb-6'>As a licensed practitioner of Energy4Life, I'm able to sell the MiHealth device to my clients. If you're interested in learning more about it and purchasing one, please don't hesitate to contact me.</p>
               <p className='font-bold text-xl mb-4'>AUD5,200</p>
@@ -211,13 +211,13 @@ export default function Home() {
 
           <div className='grid grid-cols-1 md:grid-cols-3 gap-8'>
             {/* Testimonial 1 */}
-            <TestimonialCard quote='Since taking the 2 rounds of infoceuticals I have been successful in discontinuing one long term medicine and significantly lowering the dose of the other... It is an incredible relief to have moved beyond the level of social anxiety that I would experience most days and which had gone on for many years.' name='VICKY' location='SINGAPORE' showReadMore={true} />
+            <TestimonialCard quote='Since taking the 2 rounds of infoceuticals I have been successful in discontinuing one long term medicine and significantly lowering the dose of the other... It is an incredible relief to have moved beyond the level of social anxiety that I would experience most days and which had gone on for many years.' name='VICKY' location='SINGAPORE' imageUrl='/images/Vickey.jpg' showReadMore={false} />
 
             {/* Testimonial 2 */}
-            <TestimonialCard quote="It's really amazing that my finger is no longer triggered in the past 3 days, though still have mild and transient stiffness in the morning. The triggering should be mechanical and underlying cause is inflammation. How the electromagnetic field therapy works probably is beyond my knowledge." name='TERENCE' location='HONG KONG' showReadMore={false} />
+            <TestimonialCard quote="It's really amazing that my finger is no longer triggered in the past 3 days, though still have mild and transient stiffness in the morning. The triggering should be mechanical and underlying cause is inflammation. How the electromagnetic field therapy works probably is beyond my knowledge." name='TERENCE' location='HONG KONG' imageUrl='/images/Terence.jpg' showReadMore={false} />
 
             {/* Testimonial 3 */}
-            <TestimonialCard quote="As a parent who seeks natural remedies, Energy4Life is like a mini-doctor at home.... I've witnessed improvements in their overall well-being, be it better immunity or faster recovery from illness or increased mental strength." name='JOLYN TAN' location='SINGAPORE' showReadMore={true} />
+            <TestimonialCard quote="As a parent who seeks natural remedies, Energy4Life is like a mini-doctor at home.... I've witnessed improvements in their overall well-being, be it better immunity or faster recovery from illness or increased mental strength." name='JOLYN TAN' location='SINGAPORE' imageUrl='/images/JolynTan.jpg' showReadMore={false} />
           </div>
 
           <div className='text-center mt-8'>

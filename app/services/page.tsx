@@ -23,7 +23,7 @@ export default function ServicesPage() {
                 <CardDescription></CardDescription>
               </CardHeader>
               <CardContent>
-                <Image src='/images/EnergyAudit-Service.jpeg?height=200&width=400' alt='Energy Audit' width={400} height={200} className='rounded-lg mb-4 w-full' />
+                <Image src='/images/EnergyAudit-Service3.jpg?height=200&width=400' alt='Energy Audit' width={400} height={200} className='rounded-lg mb-4 w-full' />
                 <p className='mb-4'>Unlock the Secrets of Your Energy with Our Cutting-Edge E4L Bioenergetic Scan. Using your voice, discover hidden traumas impacting your vitality and well-being, identify recurring thought patterns that are limiting your potential, and discover real support for breakthrough and lasting change.</p>
               </CardContent>
               <CardFooter>

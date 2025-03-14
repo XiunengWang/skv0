@@ -16,7 +16,7 @@ export default function EnergyAuditPage() {
         <div className='container-custom'>
           <div className='max-w-4xl mx-auto'>
             <div className='mb-8 flex justify-center'>
-              <Image src='/images/EnergyAudit-Service.jpeg' alt='Energy Audit Service - MiHealth device with spiritual elements' width={800} height={1000} className='rounded-lg w-full max-w-2xl h-auto' priority />
+              <Image src='/images/EnergyAudit-Service3.jpg' alt='Energy Audit Service - MiHealth device with spiritual elements' width={800} height={1000} className='rounded-lg w-full max-w-2xl h-auto' priority />
             </div>
 
             <h2 className='text-3xl font-bold mb-6'>Discover Hidden Traumas and Limiting Thoughts</h2>
@@ -67,7 +67,7 @@ export default function EnergyAuditPage() {
             <p className='mb-8 text-lg'>The recommended remedy typically consists of 5 bottles of infoceuticals at SGD$30 each, plus shipping.</p>
 
             <h3 className='text-2xl font-bold mb-4'>MiHealth Device Purchase:</h3>
-            <p className='mb-8 text-lg'>AUD$5,200 (approximately SGD$4,600, USD$3,500, or EUR$3,200 depending on the exchange rate)</p>
+            <p className='mb-8 text-lg'>AUD$5,000</p>
 
             <div className='bg-gray-50 p-8 rounded-lg mb-8'>
               <h3 className='text-2xl font-bold mb-4 text-center'>What Our Clients Say</h3>
