@@ -53,11 +53,12 @@ export default function MiHealthInPersonPage() {
             <div className='bg-gray-100 p-8 rounded-lg mb-8'>
               <h3 className='text-2xl font-bold mb-4'>Fees:</h3>
               <p className='text-xl'>SGD$150 / 60mins session</p>
-              <p className='mt-4'>
+              <p className='mt-4'>to schedule: +65 8882-5587</p>
+              {/* <p className='mt-4'>
                 <a href='https://wa.me/6588825587' className='text-teal-600 hover:underline'>
                   Whatsapp to schedule: +65 8882-5587
                 </a>
-              </p>
+              </p> */}
             </div>
 
             <div className='bg-gray-50 p-8 rounded-lg mb-8'>

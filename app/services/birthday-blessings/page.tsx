@@ -61,7 +61,7 @@ export default function BirthdayBlessingsPage() {
 
             <div className='bg-gray-100 p-8 rounded-lg text-center mb-8'>
               <h3 className='text-2xl font-bold mb-4'>Book Now for yourself or as a gift for someone dear!</h3>
-              <p className='mb-4'>Whatsapp +6588825587 to schedule a Zoom call to discuss more about frequencies that are appropriate for your coming New Year.</p>
+              <p className='mb-4'>Whatsapp +6588825587 to schedule a Zoom call to discuss more about frequencies that are appropriate for you and your family.</p>
               <p className='text-xl font-bold'>SGD 162 / USD 123 / EUR 111</p>
             </div>
 
