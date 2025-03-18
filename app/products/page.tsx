@@ -26,7 +26,7 @@ export default function ProductsPage() {
                   <h3 className='text-2xl font-bold mb-4'>Award-Winning Technology</h3>
                   <p className='mb-4'>As a licensed practitioner of Energy4Life, I'm able to sell the MiHealth device to my clients. This powerful device combines PEMF, TENS, and SCENAR biofeedback technologies in one handheld unit.</p>
                   <p className='mb-4'>The MiHealth device is designed for both professional practitioners and home users who want to take control of their health and well-being.</p>
-                  <p className='font-bold text-xl mb-2'>AUD$5,000</p>
+                  <p className='font-bold text-xl mb-2'>AUD$6,000</p>
                   {/* <p className='text-gray-600 mb-6'>(approximately SGD$4,600, USD$3,500, or EUR$3,200 depending on the exchange rate)</p> */}
                   <Link href='/discovery-call?service=purchaseMiHealth#discovery-form' className='btn btn-primary'>
                     Contact for Purchase
